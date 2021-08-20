@@ -1,3 +1,5 @@
+function flip(){
+
 for (let i = 0; i < 10; i++){
 
 var coinFlip = Math.round(Math.random());
@@ -9,3 +11,5 @@ if (coinFlip === 0){
   console.log("tails");
 }
 }
+}
+flip();
